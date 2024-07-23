@@ -1,0 +1,229 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Meseeks Travel</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <style>
+        .error {
+            color: red;
+            font-size: 0.8em;
+            display: none;
+        }
+
+        .success {
+            color: green;
+            font-size: 0.8em;
+            display: none;
+        }
+
+        .button:disabled {
+            background-color: #030202; 
+            color: #ffffff;
+            cursor: not-allowed;
+        }
+    </style>
+</head>
+<body class="is-preload">
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Header -->
+        <header id="header" class="alt">
+
+            <!-- Logo -->
+            <div class="logo">
+                <a href="index.html"><strong>Meseeks Travel</strong></a>
+            </div>
+
+            <!-- Nav -->
+            <nav id="nav">
+                <ul>
+                    <li class="current"><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <!-- Banner -->
+        <section id="banner">
+            <div class="content">
+                <h1>Meseeks Travel</h1>
+                <p>Your journey starts here</p>
+            </div>
+            <a href="#first" class="more scrolly">Learn More</a>
+        </section>
+
+        <!-- Section -->
+        <section class="main alt" id="first">
+            <header>
+                <h2>Welcome to Meseeks Travel</h2>
+                <p>At Meseeks Travel, we believe in the power of personalised travel experiences. Our name says it all – "me"seeks – placing you are at the heart of everything we do. We're here to inspire your journey and make your travel dreams a reality.</p>
+            </header>
+            <div class="inner">
+                <article class="post style2">
+                    <div class="content">
+                        <header>
+                            <span class="category">Transparency and Customer Focus</span>
+                            <h3>Our Commitment</h3>
+                        </header>
+                        <p>Being open and honest with is our top priority as we embark on this journey together. We want your journey to be smooth and enjoyable, filled with inspiration and unforgettable moments. We're here to support your travel dreams every step of the way.</p>
+                        <ul class="actions">
+                            <li><a href="elements.html" class="button next">Learn More</a></li>
+                        </ul>
+                    </div>
+                    <div class="image" data-position="center"><img src="https://images.unsplash.com/photo-1500027014421-46ccc843776a?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" /></div>
+                </article>
+                <article class="post style2 alt">
+                    <div class="content">
+                        <header>
+                            <span class="category">Join Us on Social Media</span>
+                            <h3>Connect with Us</h3>
+                        </header>
+                        <p>We'd love to connect with you on Instagram and TikTok! Follow us for inspiring travel stories, tips, and unforgettable experiences. Join our community and share your travel adventures with us!</p>
+                        <ul class="actions">
+                            <li><a href="https://www.instagram.com/meseekstravel" class="button next">Instagram</a></li>
+                            <li><a href="https://www.tiktok.com/@meseekstravel" class="button next">TikTok</a></li>
+                        </ul>
+                    </div>
+                    <div class="image" data-position="center"><img src="https://images.unsplash.com/photo-1488462237308-ecaa28b729d7?q=80&w=1557&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" /></div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Section -->
+        <section class="main">
+            <header>
+                <h2>Stay Tuned</h2>
+                <p>Exciting developments are on the horizon at Meseeks Travel. Stay tuned for updates and exciting announcements as we prepare to launch the next phase of Meseeks Travel. Adventure awaits!</p>
+            </header>
+        </section>
+
+        <!-- Section -->
+        <section class="main accent2">
+            <header>
+                <h2>Our Mission, Vision, and Purpose</h2>
+                <p>At Meseeks Travel, we cherish the true essence of travel and the personal enrichment it provides. We strive to make your adventures special and memorable in today's world. We believe in the power of exploring new horizons, creating lasting memories, and connecting with fellow travellers who share your passion. Additionally, we are committed to promoting sustainable travel practices, ensuring our adventures preserve the beauty of the world for future generations. Join us in making every journey an extraordinary and responsible experience.</p>
+            </header>
+        </section>
+
+        <!-- Section -->
+        <section class="main alt special">
+            <header>
+                <h2>Get in Touch</h2>
+                <p>Have questions? We'd love to hear from you! Connect with us on social media or fill out the form below to send us a message. Your journey with Meseeks Travel starts with a conversation!</p>
+            </header>
+            <div class="inner narrow">
+                <form action="https://formspree.io/f/xkgwggre" method="post" id="contact-form">
+                    <div class="fields">
+                        <div class="field half">
+                            <input name="name" id="name" placeholder="Name" type="text" required />
+                        </div>
+                        <div class="field half">
+                            <input name="email" id="email" placeholder="Email" type="email" required />
+                        </div>
+                        <div class="field">
+                            <textarea name="message" id="message" rows="6" placeholder="Message" required></textarea>
+                        </div>
+                    </div>
+                    <ul class="actions special">
+                        <li><button class="button next" type="submit" id="submit-button" disabled>Send Message</button></li>
+                    </ul>
+                    <p class="success" id="success-message">Your message has been sent successfully!</p>
+                    <p class="error" id="form-error">There was an error sending your message. Please try again later.</p>
+                </form>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <ul class="icons">
+                <li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+                <li><a href="#" class="icon brands alt fa-tiktok"><span class="label">TikTok</span></a></li>
+                <li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+                <li style="visibility: hidden;"><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+            </ul>
+            <p class="copyright">&copy; Meseeks Travel. All rights reserved.</p>
+        </footer>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.dropotron.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const form = document.getElementById("contact-form");
+            const submitButton = document.getElementById("submit-button");
+            const nameInput = document.getElementById("name");
+            const emailInput = document.getElementById("email");
+            const messageInput = document.getElementById("message");
+
+            const successMessage = document.getElementById("success-message");
+            const formError = document.getElementById("form-error");
+
+            function validateField(input) {
+                return input.value.trim() !== "";
+            }
+
+            function validateEmail(input) {
+                const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+                return emailPattern.test(input.value);
+            }
+
+            function checkFormValidity() {
+                const isNameValid = validateField(nameInput);
+                const isEmailValid = validateField(emailInput) && validateEmail(emailInput);
+                const isMessageValid = validateField(messageInput);
+
+                if (isNameValid && isEmailValid && isMessageValid) {
+                    submitButton.disabled = false;
+                } else {
+                    submitButton.disabled = true;
+                }
+            }
+
+            form.addEventListener("input", checkFormValidity);
+
+            form.addEventListener("submit", function(event) {
+                event.preventDefault();
+                submitButton.disabled = true;
+
+                fetch(form.action, {
+                    method: form.method,
+                    body: new FormData(form),
+                    headers: {
+                        'Accept': 'application/json'
+                    }
+                }).then(response => {
+                    if (response.ok) {
+                        form.reset();
+                        successMessage.style.display = "block";
+                        formError.style.display = "none";
+                        submitButton.disabled = true;
+                    } else {
+                        formError.style.display = "block";
+                        successMessage.style.display = "none";
+                    }
+                }).catch(error => {
+                    formError.style.display = "block";
+                    successMessage.style.display = "none";
+                });
+            });
+
+            checkFormValidity(); // Initial check
+        });
+    </script>
+</body>
+</html>
